@@ -1,11 +1,16 @@
 # Compiled class file
 *.class
 
+.editorconfig
+
 # IntelliJ project files
 *.iml
 *.iws
 *.ipr
 .idea/
+
+# Gradle
+.gradle/
 
 # Log file
 *.log
