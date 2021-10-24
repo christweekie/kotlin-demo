@@ -18,4 +18,8 @@ fun main(args: Array<String>) {
 
     print("Name is " + first + " " + last)
 
+//  if (!name.equals(parseName("Jane Doe"))) {
+//    System.err.println("Equals does not work")
+//  }
+
 }
