@@ -3,6 +3,8 @@
 
 .editorconfig
 
+build/
+
 # IntelliJ project files
 *.iml
 *.iws
