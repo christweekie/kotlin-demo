@@ -17,11 +17,12 @@ fun main(args: Array<String>) {
   println(root.extractText())
 }
 
-
+// Simple class declarations
 abstract class Element
 class Container(vararg val children: Element) : Element()
 class Text(val text: String) : Element()
 
+// extension function
 fun Element.extractText(): String {
   return extractText(this, StringBuilder()).toString()
 }
