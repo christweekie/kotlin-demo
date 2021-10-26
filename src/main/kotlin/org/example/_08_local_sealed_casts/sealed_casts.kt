@@ -2,16 +2,16 @@ package org.example._08_local_sealed_casts
 
 fun main(args: Array<String>) {
   val root = Container(
-    Text("a"),
+    Text("richard "),
     Container(
-      Text("b"),
+      Text("of "),
       Container(
-        Text("c"),
-        Text("d")
+        Text("york "),
+        Text("gave ")
       ),
-      Text("e")
+      Text("battle ")
     ),
-    Text("f")
+    Text("in vain")
   )
 
   println(root.extractText())
