@@ -1,13 +1,46 @@
 package org.example._02_properties
 
-private var prop: String = "..."
 
-fun getProp() = prop
+fun main(args: Array<String>) {
+  println("President $president")
+  president = "Joe Biden"
+  println("President $president")
 
-fun setProp(v: String) {
-  print("New value: $v")
-  prop = v
+  for (i in 1..3) {
+    println(os)
+  }
 }
+
+var president: String = "Donald Trump"
+  get() {
+    return field
+  }
+  set(value) {
+    println("Setting president to $value from $field")
+    field = value
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 private var _os: String? = null
 
@@ -22,10 +55,6 @@ val os: String
     return _os!!
   }
 
-fun main(args: Array<String>) {
-  for (i in 1..3) {
-    println(os)
-  }
-}
+
 
 
