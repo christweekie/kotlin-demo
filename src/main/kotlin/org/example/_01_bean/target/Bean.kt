@@ -1,6 +1,5 @@
 package org.example._01_bean.target
 
-// Paste here
 
 
 fun parseName(name: String): List<String> {
