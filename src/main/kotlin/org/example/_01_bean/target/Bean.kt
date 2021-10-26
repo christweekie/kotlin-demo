@@ -1,6 +1,6 @@
 package org.example._01_bean.target
 
-class Bean(val name: String, val age: Int)
+// Paste here
 
 
 fun parseName(name: String): List<String> {
